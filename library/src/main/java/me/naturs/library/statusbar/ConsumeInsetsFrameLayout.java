@@ -9,7 +9,7 @@ import android.widget.FrameLayout;
 /**
  * Created by naturs on 2016/2/21.
  */
-public final class ConsumeInsetsFrameLayout extends FrameLayout {
+final class ConsumeInsetsFrameLayout extends FrameLayout {
     private Rect mInsets = new Rect();
 
     private OnInsetsCallback mOnInsetsCallback;

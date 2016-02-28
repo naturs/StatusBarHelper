@@ -11,9 +11,9 @@ import android.view.View;
  * Created by naturs on 2016/2/21.
  */
 @TargetApi(Build.VERSION_CODES.LOLLIPOP)
-class StatusBarHelperImplLFullScreen extends StatusBarHelperImplLNormal {
+class StatusBarHelperImpl21NormalFull extends StatusBarHelperImpl21Normal {
 
-    public StatusBarHelperImplLFullScreen(Activity activity) {
+    public StatusBarHelperImpl21NormalFull(Activity activity) {
         super(activity);
     }
 

@@ -26,8 +26,8 @@ public class InputActivity extends BaseActivity {
     @Override
     protected void onTintStatusBar() {
         if (mStatusBarHelper == null) {
-            mStatusBarHelper = new StatusBarHelper(this, StatusBarHelper.LEVEL_KK_TRANSLUCENT,
-                    StatusBarHelper.LEVEL_L_WITH_FULL_SCREEN);
+            mStatusBarHelper = new StatusBarHelper(this, StatusBarHelper.LEVEL_19_TRANSLUCENT,
+                    StatusBarHelper.LEVEL_21_NORMAL_FULL);
         }
         mStatusBarHelper.setActivityRootLayoutFitSystemWindows(true);
 

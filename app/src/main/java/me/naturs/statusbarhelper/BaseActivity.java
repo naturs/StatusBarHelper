@@ -2,7 +2,6 @@ package me.naturs.statusbarhelper;
 
 import android.os.Bundle;
 import android.support.annotation.Nullable;
-import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
 import android.view.MenuItem;
 
@@ -43,8 +42,8 @@ public abstract class BaseActivity extends SwipeBackActivity {
 
     protected void onTintStatusBar() {
         if (mStatusBarHelper == null) {
-            mStatusBarHelper = new StatusBarHelper(this, StatusBarHelper.LEVEL_KK_TRANSLUCENT,
-                    StatusBarHelper.LEVEL_L_WITH_VIEW);
+            mStatusBarHelper = new StatusBarHelper(this, StatusBarHelper.LEVEL_19_TRANSLUCENT,
+                    StatusBarHelper.LEVEL_21_VIEW);
         }
         mStatusBarHelper.setColor(getResources().getColor(R.color.colorPrimaryDark));
     }

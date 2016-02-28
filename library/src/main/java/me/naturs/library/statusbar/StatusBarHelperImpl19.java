@@ -15,12 +15,12 @@ import android.view.WindowManager;
  * Created by naturs on 2016/2/21.
  */
 @TargetApi(Build.VERSION_CODES.KITKAT)
-class StatusBarHelperImplKK extends StatusBarHelperImplBase {
+class StatusBarHelperImpl19 extends StatusBarHelperImplBase {
 
     protected View mStatusBarView;
     protected Drawable mStatusBarDrawable;
 
-    public StatusBarHelperImplKK(Activity activity) {
+    public StatusBarHelperImpl19(Activity activity) {
         super(activity);
     }
 

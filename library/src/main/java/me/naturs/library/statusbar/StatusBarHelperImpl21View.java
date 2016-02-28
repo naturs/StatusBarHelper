@@ -13,9 +13,9 @@ import android.view.Window;
  * Created by naturs on 2016/2/21.
  */
 @TargetApi(Build.VERSION_CODES.LOLLIPOP)
-class StatusBarHelperImplLView extends StatusBarHelperImplKK {
+class StatusBarHelperImpl21View extends StatusBarHelperImpl19 {
 
-    public StatusBarHelperImplLView(Activity activity) {
+    public StatusBarHelperImpl21View(Activity activity) {
         super(activity);
     }
 

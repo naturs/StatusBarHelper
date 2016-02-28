@@ -26,8 +26,8 @@ public class WhiteStatusBarActivity extends BaseActivity {
     @Override
     protected void onTintStatusBar() {
         if (mStatusBarHelper == null) {
-            mStatusBarHelper = new StatusBarHelper(this, StatusBarHelper.LEVEL_KK_TRANSLUCENT,
-                    StatusBarHelper.LEVEL_L_WITH_VIEW);
+            mStatusBarHelper = new StatusBarHelper(this, StatusBarHelper.LEVEL_19_TRANSLUCENT,
+                    StatusBarHelper.LEVEL_21_VIEW);
         }
         mStatusBarHelper.setActivityRootLayoutFitSystemWindows(false);
         mStatusBarHelper.setDrawable(getResources().getDrawable(R.drawable.drawable_status_bar_bg));

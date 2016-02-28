@@ -46,7 +46,7 @@ public class MainActivity extends BaseActivity {
     @Override
     protected void onTintStatusBar() {
         if (mStatusBarHelper == null) {
-            mStatusBarHelper = new StatusBarHelper(this, StatusBarHelper.LEVEL_KK_TRANSLUCENT,
+            mStatusBarHelper = new StatusBarHelper(this, StatusBarHelper.LEVEL_19_TRANSLUCENT,
                     StatusBarHelper.LEVEL_NONE);
         }
         mStatusBarHelper.setActivityRootLayoutFitSystemWindows(false);

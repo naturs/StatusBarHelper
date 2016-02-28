@@ -10,9 +10,9 @@ import android.os.Build;
  * Created by naturs on 2016/2/21.
  */
 @TargetApi(Build.VERSION_CODES.LOLLIPOP)
-class StatusBarHelperImplLNormal extends StatusBarHelperImplBase {
+class StatusBarHelperImpl21Normal extends StatusBarHelperImplBase {
 
-    public StatusBarHelperImplLNormal(Activity activity) {
+    public StatusBarHelperImpl21Normal(Activity activity) {
         super(activity);
     }
 

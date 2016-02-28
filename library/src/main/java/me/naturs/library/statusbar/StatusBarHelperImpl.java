@@ -69,7 +69,7 @@ abstract class StatusBarHelperImpl {
 
     /**
      * 用Drawable设置Status Bar的颜色，5.x以上只有在
-     * {@link StatusBarHelper#LEVEL_L_WITH_VIEW LEVEL_L_WITH_VIEW}下才支持。
+     * {@link StatusBarHelper#LEVEL_21_VIEW LEVEL_21_VIEW}下才支持。
      */
     protected abstract void setDrawable(Drawable drawable);
 
