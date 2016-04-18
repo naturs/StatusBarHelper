@@ -2,7 +2,7 @@
 
 ### 描述 ###
 
-提供可同时设置4.4和5.x以上沉浸状态栏的解决方案。支持DrawerLayout以及滑动返回（[SwipeBackLayout][1]）。
+提供可同时设置4.4和5.x以上沉浸状态栏的解决方案，支持全屏显示，处理了AdjustResize的问题，支持DrawerLayout以及滑动返回（[SwipeBackLayout][1]）。更多信息可参考：[Android 沉浸状态栏][2]。
 
 ### 效果图 ###
 
@@ -56,3 +56,4 @@ helper.setColor(getResources().getColor(R.color.colorPrimaryDark));
 	limitations under the License.
 
 [1]:https://github.com/ikew0ng/SwipeBackLayout
+[2]:http://blog.csdn.net/mybeta/article/details/50760323
